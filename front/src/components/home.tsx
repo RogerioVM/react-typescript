@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Grid } from '@material-ui/core';
 import OutrosVideos from './videos';
 
+import '../styles/home.css'
+
 
 const Home: React.FC = () => {
 
@@ -13,7 +15,10 @@ const Home: React.FC = () => {
             justify='center'
             >
               <header>
-                  <h1>Aqui você pode ver as principais noticias dos melhores campeonatos do mundo</h1>
+                <div className="container-header">
+                  <h1>Click&Play</h1>
+                  <cite>Aqui você pode ver as principais noticias dos melhores campeonatos do mundo</cite>
+                </div>
               </header>
             
               <OutrosVideos />

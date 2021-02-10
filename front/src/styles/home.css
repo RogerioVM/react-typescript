@@ -1,0 +1,14 @@
+header {
+    background: rgba(0, 0, 0, 0.377);
+
+}
+
+.container-header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
